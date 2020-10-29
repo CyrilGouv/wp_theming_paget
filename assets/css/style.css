@@ -1,0 +1,219 @@
+img {
+    width: 100%;
+}
+
+
+/* Header */
+header {
+    background: #d7c9af;
+    text-align: center;
+}
+
+header img {
+    width: 65%;
+}
+
+header h1 {
+    color: white;
+    font-size: 16px;
+}
+
+/* Navigation */
+header nav {
+    color: white;
+}
+
+header nav .navbar-toggle .icon-bar {
+    background: white;
+    text-align: center;
+}
+
+header nav .navbar-toggle{
+    float: none;
+    margin-right: 0;
+}
+
+header nav ul li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+header .nav > li a:focus,
+header .nav > li a:hover {
+    background: transparent;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+
+/* imgaccueil */
+#imgaccueil {
+    padding: 20px 0;
+}
+
+
+/* bienvenue */
+#bienvenue {
+    background-color: #b3a07f;
+}
+
+#bienvenue h2 {
+    color: white;
+}
+
+#bienvenue p {
+    color: white;
+}
+
+#bienvenue img {
+    margin: 20px 0;
+}
+
+
+/* btjoindre */
+#btjoindre {
+    background: #d7c9af;
+    padding: 20px;
+    text-align: center;
+}
+
+#btjoindre button {
+    background: #7d7666;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 35px 25px;
+}
+
+#btjoindre button:hover {
+    background: #c28b66;
+}
+
+
+/* Cabinet */
+#cabinet {
+    text-align: center;
+}
+
+#cabinet h2 {
+    color: #d9cab5;
+}
+
+#cabinet h3 {
+    color: #b0b2af;
+    font-size: 14px;
+    border-bottom: 1px solid #b0b2af;
+    padding: 20px 0;
+    width: 200px;
+    margin: 20px auto;
+}
+
+#cabinet img {
+    width: 70%;
+}
+
+#cabinet p {
+    color: #676566;
+    margin-top: 20px;
+}
+
+#cabinet a {
+    color: #999;
+    font-style: italic;
+}
+
+#cabinet a:hover {
+    color: #ccc;
+}
+
+
+/* Footer */
+footer {
+    background: #b1a17f;
+    padding: 20px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer img {
+    width: 60%;
+    margin: 10px 0;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+#copyright {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid white;
+    color: white;
+}
+
+
+@media (min-width: 768px) {
+    /* Tablette */
+    header {
+        padding: 10px 20px;
+    }
+
+    header img,
+    footer img {
+        width: 100%;
+    }
+
+    header nav {
+        margin-top: 20px;
+    }
+
+    .navbar-nav > li > a {
+        padding: 0 20px;
+    }
+
+    .navbar-collapse {
+        padding: 20px;
+    }
+
+    #btjoindre p {
+        text-align: left;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Laptop */
+    #bienvenue h2 {
+        margin-left: 20px;
+    }
+
+    #bienvenue p {
+        font-size: 18px;
+        margin-left: 20px;
+        line-height: 30;
+    }
+
+    #btjoindre p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Grand Ecran */
+    #bienvenue p {
+        line-height: 40px;
+    }
+}
